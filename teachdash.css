@@ -1,0 +1,23 @@
+div.course{
+  padding: 20px;
+}
+
+div.nopadding {
+  padding: 0;
+}
+
+.nopadding-right{
+  padding-right: 0px;
+}
+.nopadding-left{
+  padding-left: 0px;
+}
+.nomargin{
+  margin: 0px;
+}
+small{
+  color: darkgrey;
+}
+.btn:hover{
+  cursor: pointer;
+}

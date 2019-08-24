@@ -1,0 +1,34 @@
+.nomargin{
+  margin: 0px;
+}
+
+div.stdrev{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: floralwhite;
+}
+
+ul.clist>li{
+  display: inline;
+}
+
+img.commentpic{
+  border-radius: 100%;
+  height: 40px;
+  width: auto;
+}
+.nopadding-right{
+  padding-right: 0px;
+}
+.nopadding-left{
+  padding-left: 0px;
+}
+.padding-top{
+  padding-top: 10px;
+}
+a.namelink{
+  color: black;
+}
+.btn:hover{
+  cursor: pointer;
+}

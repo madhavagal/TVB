@@ -1,0 +1,9 @@
+p.modal-heading{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 0px;
+}
+
+.btn:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+td>a{
+  color: black;
+}
+
+div.scrollable{
+  overflow-y: scroll;
+  height:550px;
+  border:solid 1px black;
+}
+
+table>thead>tr>th {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+a.namelink{
+  color: black;
+}
+
+.nomargin{
+  margin: 0px;
+}
+
+.thead-dark th{
+  color:#fff;
+  background-color:#343a40;
+  border-color:#454d55;
+}
+
+.btn:hover{
+  cursor: pointer;
+}

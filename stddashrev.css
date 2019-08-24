@@ -1,0 +1,121 @@
+
+img.coursecover{
+  width: 100%;
+  height: 30rem;
+}
+
+div.divscroll{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height:30rem;
+  border:1px solid black;
+  background-color: aliceblue;
+}
+.nopadding-right{
+  padding-right: 0px;
+}
+.nopadding-left{
+  padding-left: 0px;
+}
+div.revcard{
+  margin: 10px;
+  width: 60%;
+}
+.txt-center {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.clear {
+  float: none;
+  clear: both;
+}
+
+.rating {
+  width: 200px;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+  position: relative;
+}
+
+.rating > label {
+  float: right;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 1.1em;
+  cursor: pointer;
+  color: #000;
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+  color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  color: #FFD700;
+}
+
+div.nopadding {
+  padding: 0px;
+}
+
+.clear{
+    clear:both; 
+    display:block; 
+    height:0; 
+    width:auto;
+}
+
+
+.faq-row {
+    margin-bottom: 12px;
+    position:relative;
+    overflow:auto;
+}
+
+
+.faq-row-handle > a {
+    cursor: pointer;
+    display: block;
+    outline: 0;
+    float:left;
+    margin: 10px;
+}
+
+.faq-row-content {
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.faq-row-content.open{
+    display:block;
+    width: 100%;
+}
+
+.nomargin{
+  margin: 0px;
+}
+
+textarea.form-control{
+  height: auto;
+}
+
+.btn:hover{
+  cursor: pointer;
+}

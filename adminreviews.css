@@ -1,0 +1,74 @@
+div.nopadding {
+  padding: 0px;
+}
+
+
+div.scrollable{
+  overflow-y: scroll;
+  height:400px;
+  border:solid;
+}
+
+table thead tr th {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: black;
+}
+
+.clear{
+    clear:both; 
+    display:block; 
+    height:0; 
+    width:auto;
+}
+
+
+.faq-row {
+    margin-bottom: 12px;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.faq-row-handle > a {
+    cursor: pointer;
+    display: block;
+    outline: 0;
+    float:left;
+    margin: 10px;
+}
+
+.faq-row-content {
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.faq-row-content.open{
+    display:block;
+    width: 100%;
+}
+
+a.namelink{
+  color: black;
+}
+
+a.namelink:hover{
+  color: blue;
+}
+
+.nomargin{
+  margin: 0px;
+}
+
+.thead-dark th{
+  color:#fff;
+  background-color:#343a40;
+  border-color:#454d55;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
